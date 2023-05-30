@@ -1,0 +1,17 @@
+html body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aquamarine;
+}
+#tableau {
+  background-color: black;
+  width: 500px;
+  height: 500px;
+}
+td {
+  border: solid;
+  color: red;
+  width: 20px;
+  height: 20px;
+}
