@@ -2,16 +2,16 @@ html body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: aquamarine;
 }
-#tableau {
-  background-color: black;
-  width: 500px;
-  height: 500px;
+table {
+  border-collapse: collapse;
 }
 td {
-  border: solid;
-  color: red;
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
+  border: 2px solid rgb(69, 115, 13);
+  background-color: rgb(94, 145, 19);
+}
+.player {
+  background-color: red;
 }
