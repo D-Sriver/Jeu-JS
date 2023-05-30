@@ -1,9 +1,11 @@
-const table = document.createElement("table");
-
 //création du tableau
-for (let i = 0; i < 10; i++) {
+const table = document.createElement("table");
+let Col = 10;
+let Lig = 10;
+//création du tableau
+for (let i = 0; i < Col; i++) {
   const ligne = document.createElement("tr");
-  for (let j = 0; j < 10; j++) {
+  for (let j = 0; j < Lig; j++) {
     const colone = document.createElement("td");
     ligne.appendChild(colone);
   }
@@ -11,6 +13,7 @@ for (let i = 0; i < 10; i++) {
 }
 
 document.body.appendChild(table);
+
 //création du player
 const cell = document.querySelector("table tr:first-child td:first-child");
 cell.classList.add("player");
